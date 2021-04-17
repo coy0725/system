@@ -4,6 +4,7 @@ import com.coy.introduction.systematic.thinking.behavior.Behavior;
 import com.coy.introduction.systematic.thinking.behavior.FieldBehavior;
 
 /**
+ * 场方程
  * 物体都不存在时系统的行为
  * @author coy
  * @since 2021/4/16

@@ -10,6 +10,8 @@ import com.coy.introduction.systematic.thinking.technology.Technology;
  *
  * <p/>也许我们已经接近科学与技术有用性的极限，因为科学技术的哲学基础是局限于小数系统{@link SmallNumberSystem}
  * 和大数系统{@link LargeNumberSystem}的技术{@link Technology}
+ * 科学{@link Science}要具有解释“能力”，这些原语不能太大也不能太小。
+ * 如果一种东西能解释一切，也就等于什么也没解释。至少这是科学的观点，而这也正是有机论与科学家有矛盾的原因
  * @author coy
  * @since 2021/4/16
  **/
