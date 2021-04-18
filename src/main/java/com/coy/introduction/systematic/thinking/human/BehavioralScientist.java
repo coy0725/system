@@ -1,5 +1,7 @@
 package com.coy.introduction.systematic.thinking.human;
 
+import com.coy.introduction.systematic.thinking.pattern.ThinkPattern;
+
 /**
  * 行为科学家
  * <p/>如果行为科学家试图通过平均化来理解个体，个体的特性就会被分摊殆尽
@@ -9,5 +11,9 @@ package com.coy.introduction.systematic.thinking.human;
  * @since 2021/4/16
  **/
 public class BehavioralScientist implements Scientist{
-
+    
+    @Override
+    public ThinkPattern getThinkPattern() {
+        return null;
+    }
 }

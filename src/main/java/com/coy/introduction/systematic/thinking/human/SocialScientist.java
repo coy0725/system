@@ -1,6 +1,7 @@
 package com.coy.introduction.systematic.thinking.human;
 
 import com.coy.introduction.systematic.thinking.features.HumanNature;
+import com.coy.introduction.systematic.thinking.pattern.ThinkPattern;
 
 import java.util.List;
 
@@ -23,6 +24,10 @@ public class SocialScientist implements Scientist {
     }
     
     
+    @Override
+    public ThinkPattern getThinkPattern() {
+        return null;
+    }
 }
 
 
