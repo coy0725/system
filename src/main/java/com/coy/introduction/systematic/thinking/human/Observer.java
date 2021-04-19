@@ -12,8 +12,12 @@ import com.coy.introduction.systematic.thinking.structrue.ProductSpace;
  * 和一些属性有关，这些属性不是物体固有的，而是观察者与事物之间的关系。
  *
  * 测不准原理？
+ * 观察者所做的就是观察，这些观察可能是生理器官的某种感觉，也可能是测量仪器的读数，还可能是两者的结合。
+ * 一次观察可以表述为从一个集合中选择一个元素，该集合包含了这个观察者所有可能的这类观察
  * @author coy
  * @since 2021/4/16
  **/
 public interface Observer extends Human{
+
+
 }

@@ -1,6 +1,7 @@
 package com.coy.introduction.systematic.thinking.system;
 
 import com.coy.introduction.systematic.thinking.human.Observer;
+import com.coy.introduction.systematic.thinking.primitive.Primitive;
 import com.coy.introduction.systematic.thinking.relation.Relation;
 
 /**
@@ -18,6 +19,9 @@ import com.coy.introduction.systematic.thinking.relation.Relation;
  *
  * <p/>系统就是物体的集合，包括这些物体及其属性之间的关系{@link Relation}--霍尔、费根
  * 这些物体从何而来？却没有给出任何线索，关系是系统概念的重要部分，但对于系统本身与观察者的观点却没有给出丝毫暗示。
+ *
+ * <p/>系统集合的成员是系统思维中未定义的原语{@link Primitive}之一,如果我们能说他们是什么，我们谈论的不再是一般系统{@link GeneralSystem}
+ * 而是特定系统
  * @author coy
  * @since 2021/4/16
  **/
