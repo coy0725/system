@@ -11,5 +11,7 @@ public interface Behavior {
     /**
      * @return 行为线集合
      */
-    List<BehaviorLine> getBehaviorLines();
+    default List<BehaviorLine> getBehaviorLines(){
+        return null;
+    }
 }
