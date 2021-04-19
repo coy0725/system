@@ -8,5 +8,7 @@ import com.coy.introduction.systematic.thinking.pattern.ThinkPattern;
  **/
 public interface Human {
     
-    ThinkPattern getThinkPattern();
+    default ThinkPattern getThinkPattern(){
+        return null;
+    };
 }

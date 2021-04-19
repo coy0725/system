@@ -3,6 +3,7 @@ package com.coy.introduction.systematic.thinking.group;
 import com.coy.introduction.systematic.thinking.pattern.ThinkPattern;
 
 /**
+ * 群体
  * @author coy
  * @since 2021/4/18
  **/
