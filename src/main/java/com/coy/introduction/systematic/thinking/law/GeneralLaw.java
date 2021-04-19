@@ -18,5 +18,14 @@ public interface GeneralLaw extends Law {
      * @param inductiveMethod 归纳法
      * @return 一般系统规律
      */
-    GeneralLaw findGeneralLaw(InductiveMethod inductiveMethod);
+    default GeneralLaw findGeneralLaw(InductiveMethod inductiveMethod){
+        return null;
+    }
+    
+    /**
+     * 一般系统规律的本质？
+     */
+    default void getEssence(){
+    
+    }
 }
