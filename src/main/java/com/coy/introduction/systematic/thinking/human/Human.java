@@ -10,5 +10,5 @@ public interface Human {
     
     default ThinkPattern getThinkPattern(){
         return null;
-    };
+    }
 }

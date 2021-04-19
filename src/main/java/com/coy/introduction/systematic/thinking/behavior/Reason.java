@@ -8,5 +8,5 @@ import com.coy.introduction.systematic.thinking.law.Law;
  * @author coy
  * @since 2021/4/18
  **/
-public interface ResonBehavior extends Behavior {
+public interface Reason extends Behavior {
 }
