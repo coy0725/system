@@ -12,5 +12,5 @@ import com.coy.introduction.systematic.thinking.system.LivingSystem;
  * @author coy
  * @since 2021/4/17
  **/
-public interface LivingSystemModel extends Model, LivingSystem {
+public interface LivingSystemModel extends SimplyWorldModel, LivingSystem {
 }

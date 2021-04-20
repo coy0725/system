@@ -1,7 +1,11 @@
 package com.coy.introduction.systematic.thinking.model;
 
+import com.coy.introduction.systematic.thinking.equation.Equation;
+import com.coy.introduction.systematic.thinking.goal.Function;
 import com.coy.introduction.systematic.thinking.primitive.Primitive;
+import com.coy.introduction.systematic.thinking.structrue.Factor;
 import com.coy.introduction.systematic.thinking.subject.Science;
+import com.coy.introduction.systematic.thinking.system.System;
 
 /**
  * 模型
@@ -13,6 +17,17 @@ import com.coy.introduction.systematic.thinking.subject.Science;
  * <li>促进思维过程
  * <li>研究特殊系统
  * <li>创造新定律和改进旧定律
+ *
+ * <p/> 《模型思维》
+ * 模型是一种结构，以数学公式和图表的的形式进行展现，能够帮助我们理解世界。掌握各种模型可以提高我们推理、解释、设计、沟通
+ * 行动、预测、行动和探索的能力，所有的模型都有一个共同的形式：他们都假设一些实体()也就是系统中的要素{@link Factor}，通常是人或组织，
+ * 并描述他们是如何相互作用的{@link Equation}
+ * 本书讨论的模型分为三类，对世界进行简化的模型{@link SimplyWorldModel}，用数学概率来类比的模型{@link MathematicalProbabilityModel}
+ * 以及人工构造的探索性模型{@link ManualExplorationModel}
+ * 无论哪一种形式，模型必须是易处理的。模型必须足够简单，以便我们可以在模型中应用逻辑推理。例如{@link EpidemicModel}
+ * 尽管单个模型本身可能就已经相当强大了，但是一组模型可以实现更多的的功能{@link Function}。在拥有多个模型的情况下，我们可以避免每个模型
+ * 所固有的局限性。多模型方法可以消除每个模型的盲点。{@link System} 一个模型也就是一种观点。
+ * --
  * @author coy
  * @since 2021/4/17
  **/

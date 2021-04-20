@@ -9,8 +9,9 @@ import com.coy.introduction.systematic.thinking.behavior.InteractionBehavior;
  * @since 2021/4/16
  **/
 public class InteractionEquation implements Equation {
+    
     @Override
     public Behavior getBehavior() {
-        return (InteractionBehavior) () -> null;
+        return null;
     }
 }

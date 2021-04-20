@@ -11,8 +11,9 @@ import com.coy.introduction.systematic.thinking.behavior.FieldBehavior;
  **/
 public class FieldEquation implements Equation {
     
+    
     @Override
     public Behavior getBehavior() {
-        return (FieldBehavior) () -> null;
+        return null;
     }
 }
