@@ -1,8 +1,14 @@
 package com.coy.introduction.systematic.thinking.system;
 
+import com.coy.introduction.systematic.thinking.goal.Goal;
+import com.coy.introduction.systematic.thinking.goal.SystemGoal;
 import com.coy.introduction.systematic.thinking.human.Observer;
 import com.coy.introduction.systematic.thinking.primitive.Primitive;
+import com.coy.introduction.systematic.thinking.relation.Connection;
 import com.coy.introduction.systematic.thinking.relation.Relation;
+import com.coy.introduction.systematic.thinking.structrue.Factor;
+
+import java.util.List;
 
 /**
  * 有序的复杂
@@ -22,8 +28,45 @@ import com.coy.introduction.systematic.thinking.relation.Relation;
  *
  * <p/>系统集合的成员是系统思维中未定义的原语{@link Primitive}之一,如果我们能说他们是什么，我们谈论的不再是一般系统{@link GeneralSystem}
  * 而是特定系统
+ *
+ * <p/>系统并不仅仅是一些事物的简单集合，而是由一组相互连接的要素构成的、能够实现某个目标的整体。从这一定义出发，
+ * 任何一个系统都包括三种构成要件：要素、连接、功能或目标
+ * 对于系统来说，如果你更换了其中的要素，系统就被改变了。例如引进或开除某一个球员。当一个生物死去，使其成为一个有机系统
+ * 的多种连接{@link Connection}不再产生作用时，它就丧失了作为一个系统的存在状态，尽管它仍是一个更大食物链系统中的组成部分。
+ *
+ * @see SystemGoal
  * @author coy
  * @since 2021/4/16
  **/
 public interface System {
+    /**
+     * 如何让系统转向符合人们预期的行为模式
+     */
+    default void perform(){
+    
+    }
+    
+    /**
+     * 得到构成系统中的要素
+     * @return 系统中的要素
+     */
+    default List<Factor> getFactors(){
+        return null;
+    }
+    
+    /**
+     * 得到系统中的连接
+     * @return 连接
+     */
+    default List<Connection> getConnections(){
+        return null;
+    }
+    
+    /**
+     * 返回系统的功能或目标
+     * @return 目标或功能
+     */
+    default List<Goal> getGoals(){
+        return null;
+    }
 }
