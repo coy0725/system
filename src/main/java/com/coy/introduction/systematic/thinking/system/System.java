@@ -6,7 +6,7 @@ import com.coy.introduction.systematic.thinking.human.Observer;
 import com.coy.introduction.systematic.thinking.primitive.Primitive;
 import com.coy.introduction.systematic.thinking.relation.Connection;
 import com.coy.introduction.systematic.thinking.relation.Relation;
-import com.coy.introduction.systematic.thinking.structrue.Factor;
+import com.coy.introduction.systematic.thinking.element.Factor;
 
 import java.util.List;
 

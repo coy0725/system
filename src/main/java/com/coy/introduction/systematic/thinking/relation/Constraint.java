@@ -1,7 +1,7 @@
 package com.coy.introduction.systematic.thinking.relation;
 
 import com.coy.introduction.systematic.thinking.human.Observer;
-import com.coy.introduction.systematic.thinking.structrue.ProductSpace;
+import com.coy.introduction.systematic.thinking.element.ProductSpace;
 
 /**
  * 约束

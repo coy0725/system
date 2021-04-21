@@ -1,8 +1,8 @@
 package com.coy.introduction.systematic.thinking.human;
 
 import com.coy.introduction.systematic.thinking.pattern.ThinkPattern;
-import com.coy.introduction.systematic.thinking.structrue.Component;
-import com.coy.introduction.systematic.thinking.structrue.Machine;
+import com.coy.introduction.systematic.thinking.element.Component;
+import com.coy.introduction.systematic.thinking.element.Machine;
 
 import java.util.List;
 

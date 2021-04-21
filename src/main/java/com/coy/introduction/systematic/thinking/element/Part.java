@@ -1,4 +1,4 @@
-package com.coy.introduction.systematic.thinking.structrue;
+package com.coy.introduction.systematic.thinking.element;
 
 /**
  * 零件

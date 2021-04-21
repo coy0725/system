@@ -1,4 +1,4 @@
-package com.coy.introduction.systematic.thinking.structrue;
+package com.coy.introduction.systematic.thinking.element;
 
 import com.coy.introduction.systematic.thinking.goal.SystemGoal;
 import com.coy.introduction.systematic.thinking.relation.Connection;

@@ -1,4 +1,4 @@
-package com.coy.introduction.systematic.thinking.structrue;
+package com.coy.introduction.systematic.thinking.element;
 
 /**
  * 无形要素，也可以称作虚拟要素

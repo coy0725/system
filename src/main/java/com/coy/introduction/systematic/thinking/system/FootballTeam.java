@@ -2,7 +2,7 @@ package com.coy.introduction.systematic.thinking.system;
 
 import com.coy.introduction.systematic.thinking.goal.Goal;
 import com.coy.introduction.systematic.thinking.relation.Connection;
-import com.coy.introduction.systematic.thinking.structrue.Factor;
+import com.coy.introduction.systematic.thinking.element.Factor;
 
 import java.util.List;
 

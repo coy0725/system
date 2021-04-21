@@ -1,7 +1,7 @@
 package com.coy.introduction.systematic.thinking.human;
 
 import com.coy.introduction.systematic.thinking.relation.Constraint;
-import com.coy.introduction.systematic.thinking.structrue.ProductSpace;
+import com.coy.introduction.systematic.thinking.element.ProductSpace;
 
 /**
  * 观察者

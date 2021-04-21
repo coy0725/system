@@ -2,7 +2,7 @@ package com.coy.introduction.systematic.thinking.relation;
 
 import com.coy.introduction.systematic.thinking.behavior.Behavior;
 import com.coy.introduction.systematic.thinking.stream.Stream;
-import com.coy.introduction.systematic.thinking.structrue.Factor;
+import com.coy.introduction.systematic.thinking.element.Factor;
 
 /**
  * 连接

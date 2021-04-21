@@ -1,6 +1,6 @@
 package com.coy.introduction.systematic.thinking.goal;
 
-import com.coy.introduction.systematic.thinking.structrue.Factor;
+import com.coy.introduction.systematic.thinking.element.Factor;
 
 /**
  * 目标

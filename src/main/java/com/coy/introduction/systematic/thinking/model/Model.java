@@ -3,7 +3,7 @@ package com.coy.introduction.systematic.thinking.model;
 import com.coy.introduction.systematic.thinking.equation.Equation;
 import com.coy.introduction.systematic.thinking.goal.Function;
 import com.coy.introduction.systematic.thinking.primitive.Primitive;
-import com.coy.introduction.systematic.thinking.structrue.Factor;
+import com.coy.introduction.systematic.thinking.element.Factor;
 import com.coy.introduction.systematic.thinking.subject.Science;
 import com.coy.introduction.systematic.thinking.system.System;
 
