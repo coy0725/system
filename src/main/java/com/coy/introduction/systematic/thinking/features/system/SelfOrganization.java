@@ -5,5 +5,5 @@ package com.coy.introduction.systematic.thinking.features.system;
  * @author coy
  * @since 2021/4/19
  **/
-public interface SelfOrganization {
+public interface SelfOrganization extends SystemFeature  {
 }

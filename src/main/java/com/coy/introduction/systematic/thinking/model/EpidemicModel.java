@@ -7,5 +7,5 @@ package com.coy.introduction.systematic.thinking.model;
  * @author coy
  * @since 2021/4/21
  **/
-public interface EpidemicModel extends  MathematicalProbabilityModel{
+public class EpidemicModel   implements MathematicalProbabilityModel{
 }

@@ -1,4 +1,4 @@
-package com.coy.introduction.systematic.thinking.element;
+package com.coy.introduction.systematic.thinking.structure;
 
 /**
  * 结构

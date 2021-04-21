@@ -5,5 +5,5 @@ package com.coy.introduction.systematic.thinking.features.system;
  * @author coy
  * @since 2021/4/19
  **/
-public interface Adaptability {
+public interface Adaptability extends SystemFeature{
 }

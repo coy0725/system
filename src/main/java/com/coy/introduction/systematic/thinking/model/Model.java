@@ -2,6 +2,7 @@ package com.coy.introduction.systematic.thinking.model;
 
 import com.coy.introduction.systematic.thinking.equation.Equation;
 import com.coy.introduction.systematic.thinking.goal.Function;
+import com.coy.introduction.systematic.thinking.method.ModelBuilder;
 import com.coy.introduction.systematic.thinking.primitive.Primitive;
 import com.coy.introduction.systematic.thinking.element.Factor;
 import com.coy.introduction.systematic.thinking.subject.Science;
@@ -28,22 +29,64 @@ import com.coy.introduction.systematic.thinking.system.System;
  * 尽管单个模型本身可能就已经相当强大了，但是一组模型可以实现更多的的功能{@link Function}。在拥有多个模型的情况下，我们可以避免每个模型
  * 所固有的局限性。多模型方法可以消除每个模型的盲点。{@link System} 一个模型也就是一种观点。
  * --
+ * 如何构建模型？{@link ModelBuilder}
  * @author coy
  * @since 2021/4/17
  **/
 public interface Model {
+    /**
+     * 推理
+     * 识别条件并推断逻辑含义
+     */
+    default void reason(){
     
+    };
     /**
      * 解释
+     * 为经验现象提供可检验解释
      */
     default void explain(){
     
     }
+    /**
+     * 设计
+     * 选择制度、政策和规则的特征
+     */
+    default void design(){
+    
+    }
     
     /**
+     * 沟通
+     * 将知识与理解联系起来
+     */
+    default void communicate(){
+    
+    }
+    /**
+     * 行动
+     * 指导政策选择和战略行动
+     */
+    default void act(){
+    
+    }
+    /**
      * 预测
+     * 对未来和未知现象进行数值和分类预测
      */
     default void predict(){
+    }
     
-    };
+    /**
+     * 探索
+     * 分析探索可能性和假说
+     */
+    default void explore(){
+    
+    }
+
+
+
+
+    
 }
