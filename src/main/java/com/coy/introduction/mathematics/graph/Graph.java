@@ -1,6 +1,5 @@
 package com.coy.introduction.mathematics.graph;
 
-import com.coy.introduction.systematic.thinking.order.Order;
 import com.coy.introduction.systematic.thinking.relation.graph.Edge;
 
 import java.util.List;
@@ -14,13 +13,13 @@ import java.util.List;
  * @author coy
  * @since 2021/4/24
  **/
-public interface Graph {
+public interface Graph <V extends Vertices, E extends Edge>{
     
     /**
-     * 返回图的顶点数
+     * 返回图的顶点
      * @return
      */
-    default List<Vertices> getVertices(){
+    default List<V> getVertices(){
         return null;
     }
     
@@ -28,7 +27,7 @@ public interface Graph {
      * 返回图的边数
      * @return
      */
-    default List<Edge> getEdges(){
+    default List<E> getEdges(){
         return null;
     }
     
