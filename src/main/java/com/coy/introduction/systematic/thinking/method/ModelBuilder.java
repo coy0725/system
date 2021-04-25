@@ -1,10 +1,23 @@
 package com.coy.introduction.systematic.thinking.method;
 
+import com.coy.introduction.mathematics.graph.Graph;
+import com.coy.introduction.mathematics.graph.Vertices;
+import com.coy.introduction.systematic.thinking.element.Factor;
 import com.coy.introduction.systematic.thinking.features.model.Abstraction;
 import com.coy.introduction.systematic.thinking.model.EpidemicModel;
 import com.coy.introduction.systematic.thinking.model.Model;
+import com.coy.introduction.systematic.thinking.relation.Relation;
+import com.coy.introduction.systematic.thinking.relation.graph.Edge;
 import com.coy.introduction.systematic.thinking.system.System;
+
+import java.sql.Connection;
+
 /**
+ * 在构建模型时我们要确定最重要的行为人（行动者）、实体以及相关特征。然后描述这些组成部分如何互动和聚合，我们能够推导出一些东西，并说明
+ * 原因所在。这样一来也就提高了我们的推理能力
+ * <li/>模型{@link Model}--图{@link Graph}--系统{@link System}
+ * <li/>行为人--顶点{@link Vertices}--要素{@link Factor}
+ * <li/>关系{@link Relation}--边{@link Edge}--连接{@link Connection}
  * @author coy
  * @since 2021/4/21
  **/

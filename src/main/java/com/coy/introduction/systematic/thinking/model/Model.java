@@ -1,10 +1,15 @@
 package com.coy.introduction.systematic.thinking.model;
 
 import com.coy.introduction.systematic.thinking.equation.Equation;
+import com.coy.introduction.systematic.thinking.features.Feature;
 import com.coy.introduction.systematic.thinking.goal.Function;
+import com.coy.introduction.systematic.thinking.human.GeneralSystemScholar;
+import com.coy.introduction.systematic.thinking.law.Law;
 import com.coy.introduction.systematic.thinking.method.ModelBuilder;
+import com.coy.introduction.systematic.thinking.phenomenon.Phenomenon;
 import com.coy.introduction.systematic.thinking.primitive.Primitive;
 import com.coy.introduction.systematic.thinking.element.Factor;
+import com.coy.introduction.systematic.thinking.relation.Relation;
 import com.coy.introduction.systematic.thinking.subject.Science;
 import com.coy.introduction.systematic.thinking.system.System;
 
@@ -30,6 +35,15 @@ import com.coy.introduction.systematic.thinking.system.System;
  * 所固有的局限性。多模型方法可以消除每个模型的盲点。{@link System} 一个模型也就是一种观点。
  * --
  * 如何构建模型？{@link ModelBuilder}
+ *
+ * <p/> 从模型中得出的结论总是采用条件判断形式：如果条件a成立，那么可以得出结果b.例如你要装箱，而大小是唯一的约束条件，那么就先装最大
+ * 最好的东西。我们从经典文献和伟大思想家的名言中吸取的教训却通常不包括任何条件。如果我们试图依据这种“原则”来生活或管理他人，就肯定会迷失
+ * 在众多意思相反的谚语海洋汇总
+ * <li/> 三个臭皮匠，赛过诸葛亮--厨子多了少烧坏汤
+ * <li/>破釜沉舟--留得青山在不愁没柴烧
+ * 现在的学生很难理解牛顿关于行星轨道的计算为什么能跻身人类最伟大的成就之列，但是一般系统思想家{@link GeneralSystemScholar}能够理解
+ * 因为他们所选择的任务就是理解科学的简化假设。用维格纳的话说就是：这些感兴趣的对象和明确定义的条件 限定了科学的应用范围，增强了他的预测能力
+ * 相反的谚语经常共存，但是相反的定理{@link Law}却不会出现
  * @author coy
  * @since 2021/4/17
  **/
@@ -43,7 +57,10 @@ public interface Model {
     };
     /**
      * 解释
-     * 为经验现象提供可检验解释
+     * 为经验现象{@link Phenomenon}提供可检验解释
+     * <li/>物理学模型可以解释坠落物体的轨迹和轨迹形状的变化
+     * <li/>生物学模型可以解释物种的分布
+     * 模型可以解释任何东西，然而基于模型的解释必须包括正式的假设和明确的因果链条，而且这些假设和因果链条都要面对数据。
      */
     default void explain(){
     
@@ -51,6 +68,10 @@ public interface Model {
     /**
      * 设计
      * 选择制度、政策和规则的特征
+     * 模型可以通过提供框架来帮助设计，因为只有在适当的框架内我们才可以考虑不同选择的含义。
+     * <li/>工程师使用模型设计供应链
+     * <li/>计算机科学家使用模型设计web协议
+     * <li/>社会科学家使用模型设计制度
      */
     default void design(){
     
@@ -59,6 +80,10 @@ public interface Model {
     /**
      * 沟通
      * 将知识与理解联系起来
+     * <p/> 由于创造了一种共同的表示方法，模型能够有效地改进交流。模型要求对相关特征{@link Feature},及其关系{@link Relation}给出
+     * 正确定义，这使我能够精确地进行交流。例如，模型F=ma，涉及3个可测量的量--力、质量和加速度，并将他们之间的关系用方程式出来。每一项
+     * 都可以表示为可测量的单位，因而可以很方便地就这个模型进行交流，而不必担心有什么误解。相比之下，更大、更快的东西会产生更大的力，
+     * 这种说法的准确度却要低得多，因为这需要解释，而翻译会会令很多人迷失方向，更大指的是质量还是体积？更快指的是速度还是加速度
      */
     default void communicate(){
     
